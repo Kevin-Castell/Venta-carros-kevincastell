@@ -1,0 +1,26 @@
+/* src/Header.css */
+/* ... otros estilos ... */
+
+.header-cart {
+    position: relative; /* Para posicionar el contador */
+    display: flex; /* Alinea el logo y el contador horizontalmente */
+    align-items: center; /* Centra verticalmente el logo y el contador */
+  }
+  
+  .cart-logo {
+    width: 60px; /* Aumentamos el ancho del logo del carrito */
+    height: 60px; /* Aumentamos la altura del logo del carrito */
+  }
+  
+  .cart-count {
+    position: absolute;
+    top: -12px; /* Ajustamos la posición vertical */
+    right: -12px; /* Ajustamos la posición horizontal */
+    background-color: #f00; /* Color rojo para el contador */
+    color: white;
+    border-radius: 50%;
+    padding: 8px; /* Aumentamos el padding del contador */
+    font-size: 1em; /* Aumentamos el tamaño de la fuente del contador */
+    min-width: 20px; /* Aumentamos el ancho mínimo */
+    text-align: center;
+  }

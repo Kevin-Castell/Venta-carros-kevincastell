@@ -1,0 +1,135 @@
+/* ShoppingCars.css */
+.shopping-cart-container {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .cart-items-list {
+    list-style: none;
+    padding: 0;
+    width: 80%;
+    max-width: 800px;
+  }
+  
+  .cart-item {
+    display: flex;
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 8px;
+    align-items: center;
+  }
+  
+  .item-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-right: 15px;
+    border-radius: 6px;
+  }
+  
+  .item-details {
+    flex-grow: 1;
+  }
+  
+  .item-name {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+  }
+  
+  .item-value {
+    color: green;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .quantity-controls {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .quantity-controls button {
+    padding: 5px 10px;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  
+  .remove-item-button {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .cart-summary {
+    margin-top: 20px;
+    width: 80%;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  
+  .checkout-button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .continue-shopping-button {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    background-color: #007bff;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  /* ShoppingCars.css */
+/* ... otros estilos ... */
+
+.cart-total {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #007bff; /* Un color llamativo para el total */
+    margin-bottom: 15px;
+    text-align: right; /* Alinea el total a la derecha */
+  }
+  
+  /* ... otros estilos del cart-summary ... */
+  /* ShoppingCars.css */
+/* ... otros estilos ... */
+
+.cart-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .cart-logo-page {
+    width: 50px; /* Ajusta el tamaño del logo en la página del carrito */
+    height: 50px;
+    margin-right: 10px;
+  }
+  
+  .cart-count-page {
+    background-color: #f00; /* Color rojo para el contador */
+    color: white;
+    border-radius: 50%;
+    padding: 8px;
+    font-size: 1em;
+    min-width: 25px;
+    text-align: center;
+  }
+  
+  /* ... otros estilos ... */
